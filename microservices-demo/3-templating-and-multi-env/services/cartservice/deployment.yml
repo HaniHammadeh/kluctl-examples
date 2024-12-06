@@ -10,7 +10,6 @@ spec:
     metadata:
       labels:
         app: cartservice
-        mytag: storm
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
