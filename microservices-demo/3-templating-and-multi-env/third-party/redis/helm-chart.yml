@@ -3,5 +3,5 @@ helmChart:
   chartName: redis
   chartVersion: 17.4.0
   releaseName: cart
-  namespace: ms-demo-{{ target.name }}
+  namespace: ms-demo-app-{{ target.name }}
   output: deploy.yml
